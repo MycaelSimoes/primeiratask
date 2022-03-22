@@ -1,0 +1,47 @@
+h1 {
+   color: red;
+}
+.cor1{
+   color: blueviolet;
+}
+
+.cor2{
+    color: rgb(192, 17, 148);}
+
+button{
+   color: rgb(0, 202, 221);
+}
+.efeito{
+   text-align: left;
+   margin-top: 50px;
+}    
+.efeito1{
+   border: none;
+   color: #fff;
+   padding: 20px;
+   margin: 10px;
+   font-size: 24px;
+   line-height: 24px;
+   border-radius: 10px;
+   position: relative;
+   box-sizing: border-box;
+   cursor: pointer;
+   transition: 400ms ease;
+   }
+.efeito-2{
+   background-color: #28346A;
+}
+.efeito-2:before{
+   content: '';
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 0px;
+   height: 64px;
+   background:rgba(255, 255, 255, 0.3);
+   border-radius: 10px;
+   transition: all 2s ease;
+}
+.efeito-2:hover:before{
+   width: 100%;
+}
